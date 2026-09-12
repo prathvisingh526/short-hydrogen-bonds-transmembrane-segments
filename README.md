@@ -1,9 +1,7 @@
-# Self-contact hydrogen bonds in protein structures
+# Short hydrogen bonds in protein structures
 
 This repository contains the analysis workflow used to identify and characterize
-self-contacting hydrogen bonds involving cysteine (Cys), serine (Ser), and
-threonine (Thr) residues in high-resolution protein crystal structures, with a
-focus on transmembrane segments.
+short hydrogen bonds in transmembrane segments of protein crystal structures
 
 The workflow combines structural data collection, hydrogen-bond detection,
 secondary-structure and solvent-accessibility annotation, post-processing, and
