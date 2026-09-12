@@ -1,0 +1,7 @@
+biopython
+ipykernel
+jupyterlab
+numpy
+openpyxl
+pandas
+requests

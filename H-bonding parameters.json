@@ -1,0 +1,58 @@
+{
+ "dict_donor_and_hydrogen_atoms_ON": {
+  "N": ["H","H1","H2","H3"],
+  "NZ": ["HZ1","HZ2","HZ3"],
+  "ND1": ["HD1"],
+  "NE2": ["HE2","HE21","HE22"],
+  "NE": ["HE"],
+  "NH1": ["HH11","HH12"],
+  "NH2": ["HH21","HH22"],
+  "NE1": ["HE1"],
+  "OH": ["HH"],
+  "OG": ["HG"],
+  "OG1": ["HG1"],
+  "ND2": ["HD21","HD22"]
+ },
+
+ "dict_donor_and_hydrogen_atoms_S": {
+  "SG": ["HG"]
+ },
+
+ "dict_acceptor_and_antecedent_atoms_ON": {
+  "O": ["C"],
+  "N": ["CA"],
+  "NE": ["CD"],
+  "NH1": ["CZ"],
+  "NH2": ["CZ"],
+  "ND2": ["CG"],
+  "OD1": ["CG"],
+  "OD2": ["CG"],
+  "NE2": ["CD","CD2"],
+  "OE1": ["CD"],
+  "OE2": ["CD"],
+  "ND1": ["CG"],
+  "OG": ["CB"],
+  "OG1": ["CB"],
+  "OH": ["CZ"]
+ },
+
+ "dict_acceptor_and_antecedent_atoms_S": {
+  "SD": ["CG","CE"],
+  "SG":["CB"]
+ },
+
+"resnames_with_sidechain_donors": {
+    "CYS": {"SG":["HG"]},
+    "SER": {"OG": ["HG"]}, 
+    "THR": {"OG1": ["HG1"]}
+},
+
+"resnames_with_sidechain_acceptors": {
+    "CYS": {"SG":["CB"]},
+    "SER": {"OG": ["CB"]}, 
+    "THR": {"OG1": ["CB"]},
+    "MET": {"SD":["CG","CE"]}
+},
+
+"Why lysine's NZ is not in the dictionary dict_acceptor_and_antecedent_atoms_ON " : "its because it has no lone pair to accept a H-bond"
+}
